@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -53,6 +54,7 @@
 
         .project-card {
             background: rgba(255, 255, 255, 0.05);
+            -webkit-backdrop-filter: blur(10px);
             backdrop-filter: blur(10px);
             border: 1px solid rgba(255, 255, 255, 0.1);
             border-radius: 16px;
@@ -116,12 +118,14 @@
             h1 {
                 font-size: 2.5rem;
             }
+
             .subtitle {
                 font-size: 1.1rem;
             }
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <header>
@@ -144,7 +148,8 @@
 
             <div class="project-card">
                 <h3>SaludCheck</h3>
-                <p>Healthcare management system with web and mobile components for patient tracking and health monitoring.</p>
+                <p>Healthcare management system with web and mobile components for patient tracking and health
+                    monitoring.</p>
                 <div class="tech-stack">
                     <span class="tech-tag">Python</span>
                     <span class="tech-tag">FastAPI</span>
@@ -169,7 +174,8 @@
 
             <div class="project-card">
                 <h3>Phone Call Saver</h3>
-                <p>React Native mobile application for managing emergency contacts and fake calls for personal safety.</p>
+                <p>React Native mobile application for managing emergency contacts and fake calls for personal safety.
+                </p>
                 <div class="tech-stack">
                     <span class="tech-tag">React Native</span>
                     <span class="tech-tag">Firebase</span>
@@ -181,4 +187,5 @@
         </div>
     </div>
 </body>
+
 </html>
