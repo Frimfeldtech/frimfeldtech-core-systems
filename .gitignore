@@ -1,0 +1,33 @@
+# Build and Release files
+*.exe
+*.asar
+*.pak
+*.dll
+*.dat
+*.html
+release/
+win-unpacked/
+
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+*.pyc
+.Python
+env/
+build/
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+*.log
+*.tmp

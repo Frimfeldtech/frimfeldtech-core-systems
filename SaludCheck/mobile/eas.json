@@ -1,0 +1,30 @@
+{
+    "cli": {
+        "version": ">= 3.0.0"
+    },
+    "build": {
+        "development": {
+            "developmentClient": true,
+            "distribution": "internal"
+        },
+        "preview": {
+            "distribution": "internal"
+        },
+        "production": {
+            "node": "18.x.x"
+        }
+    },
+    "submit": {
+        "production": {
+            "android": {
+                "serviceAccountKeyPath": "../google-play-key.json",
+                "track": "internal"
+            },
+            "ios": {
+                "appleId": "imfeldfabrizio7@gmail.com",
+                "ascAppId": "YOUR_APP_ID_HERE",
+                "appleTeamId": "YOUR_TEAM_ID_HERE"
+            }
+        }
+    }
+}
